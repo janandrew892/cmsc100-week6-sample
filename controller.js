@@ -1,3 +1,5 @@
+import { model } from "mongoose";
+
 function greet(req, res) {
   var name = req.query.name;
   if(!name) {
